@@ -30,7 +30,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="dj-redis-url",
-    version="0.1.1",
+    version="0.1.2",
 
     description="Use Redis URLs in your Django Application.",
     long_description=__doc__,
