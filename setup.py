@@ -26,7 +26,7 @@ Installation is simple too::
 
     $ pip install dj-redis-url
 """
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="dj-redis-url",
@@ -43,8 +43,7 @@ setup(
         "tests": ["pytest"],
     },
 
-    packages=find_packages(exclude=["tests"]),
-    package_data={"": ["LICENSE"]},
+    py_modules=["dj_redis_url"],
     include_package_data=True,
 
     zip_safe=False,
