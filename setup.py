@@ -5,7 +5,7 @@ setup(
     name="dj-redis-url",
     version="0.1",
 
-    description="",
+    description="Use Redis URLs in your Django Application.",
     long_description=open("README.rst").read(),
     url="https://github.com/dstufft/dj-redis-url",
     license=open("LICENSE").read(),
